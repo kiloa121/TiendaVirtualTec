@@ -1,8 +1,49 @@
-#cabeza{
-    background-color: rgb(53, 52, 54);
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 5px;
+header{
+    display: flex;
+    align-items: center;
+    background-color: #03002C;
+    padding-left: 400px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 360px;
+}
+.nav-link{
+    display: inline-block;
+    gap: 20px;
+    text-decoration: none;
+    color: white; 
+    margin-right: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.nav-link-conteiner{
+    flex-grow: 1px;
+}
+form {
+    display: inline-block;
+    align-items: center;
+    border-radius: 5px;
+}
+  
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+button {
+    padding: 5px 10px;
+    background-color: #0c065e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
 }
 
 body{
