@@ -1,0 +1,15 @@
+#cabeza{
+    background-color: rgb(53, 52, 54);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+body{
+   margin: 0px;
+}
+#titulo{
+    text-align: center;
+    border:dashed red;
+    color: aliceblue;
+}
