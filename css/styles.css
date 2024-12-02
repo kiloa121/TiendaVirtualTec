@@ -11,6 +11,11 @@ header{
     align-items: center;
     margin-right: 360px;
 }
+
+#carrit0{
+    margin-left: 10px;
+}
+
 .nav-link{
     display: inline-block;
     gap: 20px;
